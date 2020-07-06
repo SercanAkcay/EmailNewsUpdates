@@ -10,10 +10,11 @@
 
 - Functions stored in AutoEmailer.py
 - Main program run from Master_Emailer.py
-- Gmail login credentials should be stored in 'Gmail_Login_Creds.txt' (Use only 2 lines in the text doc for this to work)
-  - The first line in this file will be your username
+- Gmail login credentials should be stored in 'Gmail_Login_Creds.txt' (Only use the first 2 lines in the txt file for this to work)
+  - The first line will be your username
   - The second line will be your gmail app password
   - Check out this short tutorial to set up your gmail account so your program can log in: 
+    - Credit: Corey Schafer
     - Title: How to Send Emails Using Python - Plain Text, Adding Attachments, HTML Emails, and More
     - Link: https://www.youtube.com/watch?v=JRCJ6RtE3xU
     - Timestamps: 0:00-2:25
@@ -28,3 +29,8 @@
 - BUGS:
   - If by chance the code doesn't run the first time through, just wait a few minutes and try it out again. I still need to implement some try statements into the code
     
+- Python Libraries used:
+  - pip3 install smtplib
+  - pip3 install pandas
+  - pip3 install beautifulsoup4
+  - pip3 install requests
